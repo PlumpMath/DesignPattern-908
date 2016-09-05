@@ -37,6 +37,10 @@ namespace Decorator
             Console.WriteLine("\nPelne wyposazenie");
             Samochod s3 = new OponyZimowe(new Klimatyzacja(new Mercedes()));
             Console.WriteLine(string.Format("{0} {1}", s3.About(), s3.Cena()));
+
+            Console.WriteLine("\nUniwersalny Dekorator");
+            Samochod s4 = new DekoratorV2(s3, new PakietDodatkowy("podgrzewane siedzenie", 1000));
+            Console.WriteLine(string.Format("{0} {1}", s4.About(), s4.Cena()));
             Console.ReadLine();
         }
     }

@@ -44,10 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dekorator.cs" />
+    <Compile Include="DekoratorV2.cs" />
     <Compile Include="Fiat.cs" />
     <Compile Include="Klimatyzacja.cs" />
     <Compile Include="Mercedes.cs" />
     <Compile Include="OponyZimowe.cs" />
+    <Compile Include="PakietDodatkowy.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Samochód.cs" />
