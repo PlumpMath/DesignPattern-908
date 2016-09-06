@@ -43,14 +43,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DyskDlaLaptopa.cs" />
-    <Compile Include="DyskDlaPC.cs" />
-    <Compile Include="IChlodzenie.cs" />
-    <Compile Include="IDysk.cs" />
-    <Compile Include="IFabrykaPodzespolowKomputerowych.cs" />
-    <Compile Include="IGrafika.cs" />
-    <Compile Include="IProcesor.cs" />
-    <Compile Include="IRam.cs" />
+    <Compile Include="Chłodzenie\ChlodzenieDoLaptopa.cs" />
+    <Compile Include="Czesci\FabrykaPodzespolowLaptop.cs" />
+    <Compile Include="Czesci\FabrykaPodzespolowPC.cs" />
+    <Compile Include="Dyski\DyskDlaLaptopa.cs" />
+    <Compile Include="Dyski\DyskDlaPC.cs" />
+    <Compile Include="FabrykaKomputerow.cs" />
+    <Compile Include="Grafika\GrafikaDlaLaptopa.cs" />
+    <Compile Include="Grafika\GrafikaDlaPC.cs" />
+    <Compile Include="Interface\IChlodzenie.cs" />
+    <Compile Include="Interface\IDysk.cs" />
+    <Compile Include="Interface\IFabrykaPodzespolowKomputerowych.cs" />
+    <Compile Include="Interface\IGrafika.cs" />
+    <Compile Include="Interface\IProcesor.cs" />
+    <Compile Include="Interface\IRam.cs" />
+    <Compile Include="Komputery\Komputer.cs" />
+    <Compile Include="Komputery\KomputerPC.cs" />
+    <Compile Include="Komputery\Laptop.cs" />
+    <Compile Include="Pamiec\DDR2.cs" />
+    <Compile Include="Pamiec\DDR3.cs" />
+    <Compile Include="Procesory\ProcesorDlaLaptopa.cs" />
+    <Compile Include="Procesory\ProcesorDlaPC.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

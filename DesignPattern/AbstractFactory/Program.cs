@@ -10,6 +10,12 @@ namespace AbstractFactory
     {
         static void Main(string[] args)
         {
+            FabrykaKomputerow fabrykaKomputerow = new FabrykaKomputerow();
+            Console.WriteLine("PC");
+            Komputer pc = fabrykaKomputerow.wydajKomputer("PC");
+            Console.WriteLine("\n\nLaptop");
+            Komputer laptop = fabrykaKomputerow.wydajKomputer("Laptop");
+            Console.ReadLine();
         }
     }
 }

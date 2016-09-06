@@ -2,5 +2,6 @@
 {
     public interface IChlodzenie
     {
+        IChlodzenie dawajChlodzenie();
     }
 }

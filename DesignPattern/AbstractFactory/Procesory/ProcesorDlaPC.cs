@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AbstractFactory
+namespace AbstractFactory.Procesory
 {
-    class DyskDlaLaptopa : IDysk
+    public class ProcesorDlaPC : IProcesor
     {
-        String name = "DyskDlaLaptopa";
-        public IDysk dawajDysk()
+        String name = "ProcesorDlaPC";
+        public IProcesor dawajProcesor()
         {
             Console.WriteLine("Dodaje: " + name);
-            return new DyskDlaLaptopa();
+            return new ProcesorDlaPC();
         }
     }
 }

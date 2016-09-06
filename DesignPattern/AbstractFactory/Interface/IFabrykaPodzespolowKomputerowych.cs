@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory
 {
-    interface IFabrykaPodzespolowKomputerowych
+    public interface IFabrykaPodzespolowKomputerowych
     {
         IDysk produkujemyDysk();
         IGrafika produkujemyGrafike();

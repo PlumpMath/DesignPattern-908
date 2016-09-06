@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AbstractFactory
+namespace AbstractFactory.Grafiki
 {
-    public class DyskDlaPC : IDysk
+    public class GrafikaDlaLaptopa : IGrafika
     {
-        String name = "DyskDlaPC";
-        public IDysk dawajDysk()
+        String name = "GrafikaDlaPC";
+        public IGrafika dawajGrafike()
         {
             Console.WriteLine("Dodaje: " + name);
-            return new DyskDlaPC();
+            return new GrafikaDlaPC();
         }
     }
 }

@@ -2,5 +2,6 @@
 {
     public interface IProcesor
     {
+        IProcesor dawajProcesor();
     }
 }

@@ -2,5 +2,6 @@
 {
     public interface IRam
     {
+        IRam dawajRam();
     }
 }

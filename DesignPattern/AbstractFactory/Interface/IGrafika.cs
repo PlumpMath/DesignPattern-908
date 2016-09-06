@@ -2,5 +2,6 @@
 {
     public interface IGrafika
     {
+        IGrafika dawajGrafike();
     }
 }
