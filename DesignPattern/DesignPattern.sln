@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{FE7679BB-CE22-4540-B3D9-1162FC4231E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{CC80D6E8-487C-46DE-A940-E9D796B69A13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{FE7679BB-CE22-4540-B3D9-1162FC4231E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE7679BB-CE22-4540-B3D9-1162FC4231E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE7679BB-CE22-4540-B3D9-1162FC4231E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC80D6E8-487C-46DE-A940-E9D796B69A13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC80D6E8-487C-46DE-A940-E9D796B69A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC80D6E8-487C-46DE-A940-E9D796B69A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC80D6E8-487C-46DE-A940-E9D796B69A13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
