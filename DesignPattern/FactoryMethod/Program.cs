@@ -10,6 +10,15 @@ namespace FactoryMethod
     {
         static void Main(string[] args)
         {
+            ProducentCzekolady producent = new ProducentCzekolady();
+            Czekolada[] tab = new Czekolada[3];
+
+            tab[0] = producent.produkcjaCzekolady("Gorzka");
+            Console.WriteLine("--------------------------------------------------------------");
+            tab[1] = producent.produkcjaCzekolady("Z orzechami i bakaliami");
+            Console.WriteLine("--------------------------------------------------------------");
+            tab[2] = producent.produkcjaCzekolady("Mleczna");
+            Console.ReadLine();
         }
     }
 }
