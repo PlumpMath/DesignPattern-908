@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Flyweight\Flyw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{58653455-5A4C-4F04-A323-6D47469389B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{D6900634-24C7-40FD-85D4-14799F791936}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{58653455-5A4C-4F04-A323-6D47469389B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58653455-5A4C-4F04-A323-6D47469389B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58653455-5A4C-4F04-A323-6D47469389B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6900634-24C7-40FD-85D4-14799F791936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6900634-24C7-40FD-85D4-14799F791936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6900634-24C7-40FD-85D4-14799F791936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6900634-24C7-40FD-85D4-14799F791936}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
